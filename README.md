@@ -1,9 +1,9 @@
 # haproxy-wp-bruteforce-proteccion
-haproxy configuration in order to protect bruteforces attack with haproxy
+haproxy configuration in order to protect Wordpress from bruteforces attack with haproxy
 
-There are some configuration in haproxy to prevent Wordpress bruteforce attacks, one of the proposals is this old post of haproxy blog https://www.haproxy.com/blog/wordpress-cms-brute-force-protection-with-haproxy/, but for me in a haproxy version 1.5.18 in a Centos 7 doesn't work.
+It's posible configure haproxy that allow us to avoid Wordpress bruteforce attacks, one of the proposals is this old post of haproxy blog https://www.haproxy.com/blog/wordpress-cms-brute-force-protection-with-haproxy/, but for me in a haproxy version 1.5.18 in a Centos 7 doesn't work.
 
-I have found that using other proposals again from haproxy blog (https://www.haproxy.com/blog/use-a-load-balancer-as-a-first-row-of-defense-against-ddos/) and from (https://gist.github.com/jeremyj/e964a951634f1997daea) with some minor modifications it's posible to implement bruteforce protection from haproxy level to a Wordpress instalation:
+I have found that using other proposals from haproxy blog (https://www.haproxy.com/blog/use-a-load-balancer-as-a-first-row-of-defense-against-ddos/) and from (https://gist.github.com/jeremyj/e964a951634f1997daea) with some minor modifications it's posible to implement bruteforce protection from haproxy level to a Wordpress instalation:
 
 In the frontend section you must to put:
 
