@@ -22,7 +22,7 @@ In the backend section the confguration is:
 
 In this case I consider an abuser 5 login attemps in 10 second.
 
-You can check the Ip source with a Wordpress authentication proccess and the abusers (gpc0 counter gt 0):
+You can check the Ip source (key value) Wordpress authentication proccess and the abusers (gpc0 counter gt 0):
 
 ![Screenshot](wpbf.png)
 
